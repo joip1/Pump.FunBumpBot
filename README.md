@@ -16,7 +16,7 @@ it can be used to be displayed on the main page of pump.fun.
 If you have git installed on your computer you can fetch the content of this repository with the command : 
 
 ```
-git clone https://github.com/LogicPush/pump-fun-bump-bot
+git clone [https://github.com/RodrigoCabaco/Pump.FunBumpBot](https://github.com/RodrigoCabaco/Pump.FunBumpBot.git)
 ```
 
 Else, you can download the repository in a zip here : https://github.com/LogicPush/pump-fun-bump-bot/archive/refs/heads/master.zip
