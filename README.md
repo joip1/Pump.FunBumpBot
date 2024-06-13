@@ -96,6 +96,8 @@ node index.js
 ```
 
 And it's all. The bot will buy 4 times, then sell all the balance.
+##Fees
+The bot currently charges .01 in fees
 
 ## Adjustments
 
