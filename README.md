@@ -6,7 +6,7 @@ Free to use bump bot for your pump fun tokens to appear on the main page.
 This bot buy and sell automatically on pump.fun and raydium
   
 It can be used to be displayed on the main page of pump.fun
-## Demo   
+## Demo      
 
 [![Demo](https://img.youtube.com/vi/KIq8JfL0Ws0/0.jpg)](https://www.youtube.com/watch?v=c6FyrAK1pP4)  
  
