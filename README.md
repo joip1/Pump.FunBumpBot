@@ -3,7 +3,7 @@ Free to use bump bot for your pump fun tokens to appear on the main page.
            
 # pump-fun-bump-bot       
               
-This bot buy and sell automatically on pump.fun and raydium.   
+This bot buy and sell automatically on pump.fun and raydium.     
   
 It can be used to be displayed on the main page of pump.fun
 ## Demo         
